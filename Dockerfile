@@ -1,6 +1,6 @@
 FROM node:6.2.1
 
-RUN apt install -y nano
+RUN apt-get update ; apt-get install -y nano
 
 WORKDIR /fcc
 
